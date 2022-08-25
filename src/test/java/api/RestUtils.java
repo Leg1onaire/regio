@@ -13,7 +13,7 @@ import static helpers.Helper.uriParamsBuilder;
 public final class RestUtils {
 
     /**
-     * Validate if specified time matches the format hh:mm
+     * Sends GET request to specified URL and returns body for specified JSON as specified Class
      *
      * @param url String request URL
      * @param queryParams @Nullable map of query parameters
